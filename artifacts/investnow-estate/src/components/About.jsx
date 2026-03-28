@@ -44,7 +44,7 @@ export default function About() {
           </h2>
           <p className="about__desc">
             InvestNow Estate is a professionally managed real estate consultancy based in Gurugram,
-            led by <strong>Mihir Gaba</strong> and a team of experienced advisors. We focus on
+            led by a team of experienced advisors. We focus on
             transparency, trust, and long-term relationships to help you find the perfect property.
           </p>
         </div>
