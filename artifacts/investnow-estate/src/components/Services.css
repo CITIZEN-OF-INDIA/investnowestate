@@ -1,0 +1,125 @@
+.services {
+  background: #080808;
+  padding: 100px 0;
+}
+
+.services__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.services__label {
+  color: #c9a227;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.services__title {
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+.services__desc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
+.services__cta {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #c9a227;
+  color: #c9a227;
+  padding: 14px 36px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.services__cta:hover {
+  background: #c9a227;
+  color: #0a0a0a;
+}
+
+.services__right {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.services__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.services__item:first-child {
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.services__item:hover {
+  padding-left: 10px;
+}
+
+.services__item:hover .services__item-title {
+  color: #c9a227;
+}
+
+.services__item-num {
+  color: #c9a227;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  flex-shrink: 0;
+  margin-top: 2px;
+  opacity: 0.7;
+}
+
+.services__item-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 6px;
+  transition: color 0.3s;
+  font-family: 'Georgia', serif;
+}
+
+.services__item-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .services__container {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    padding: 0 20px;
+  }
+
+  .services {
+    padding: 70px 0;
+  }
+}

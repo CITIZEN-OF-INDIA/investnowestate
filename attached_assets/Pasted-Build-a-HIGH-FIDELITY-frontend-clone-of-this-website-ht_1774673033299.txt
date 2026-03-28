@@ -1,0 +1,216 @@
+Build a HIGH-FIDELITY frontend clone of this website:
+https://www.chaahathomes.com/
+
+IMPORTANT:
+This is STRICTLY a UI/UX clone.
+DO NOT copy any original text content.
+Replace ALL content with the custom content provided below.
+
+-----------------------------------
+
+🎯 OBJECTIVE:
+Recreate the website visually IDENTICAL (95–99%) in:
+- Layout
+- UI components
+- Colors
+- Typography
+- Animations
+- Responsiveness (mobile + desktop EXACT like original)
+
+BUT:
+- Replace all content with InvestNow Estate data
+- REMOVE the "NOIDA PROPERTIES" section completely
+
+-----------------------------------
+
+⚙️ TECH STACK (STRICT REQUIREMENT):
+
+- React + Vite
+- Plain CSS (NO Tailwind)
+- Use modular CSS or CSS files per component
+- Fully responsive design (mobile-first + desktop optimized)
+
+-----------------------------------
+
+🎨 UI CLONING RULES (VERY STRICT):
+
+1. Match EXACT design:
+- Dark luxury theme (black/charcoal background)
+- Gold/yellow accent color
+- Same font hierarchy (large hero text, thin uppercase headings)
+- Same spacing, padding, alignment
+- Same card shadows and borders
+
+2. Replicate ALL sections EXACTLY (except Noida):
+
+✔ Navbar
+- Logo (replace with "InvestNow Estate")
+- Right-side menu button (mobile hamburger)
+
+✔ Hero Section
+- Full-width background image (city skyline)
+- Large heading text overlay
+- Search bar UI:
+  - Dropdown fields (non-functional)
+  - Yellow search button
+
+✔ "WHAT WE ARE DOING" Section (3 cards)
+✔ Services Section layout
+✔ GURGAON PROPERTIES section ONLY
+✔ Property cards grid
+✔ Testimonials section
+✔ Footer
+
+❌ DO NOT INCLUDE:
+- NOIDA PROPERTIES section
+
+-----------------------------------
+
+🔁 CONTENT REPLACEMENT (VERY IMPORTANT)
+
+Replace all text with:
+
+-----------------------------------
+
+🏠 HERO SECTION:
+
+Heading:
+"Your Trusted Property Advisor in Gurugram"
+
+Subheading:
+"Smart. Secure. Profitable Real Estate Investments"
+
+Button:
+"Explore Properties"
+
+-----------------------------------
+
+🔷 ABOUT SECTION:
+
+InvestNow Estate is a professionally managed real estate consultancy based in Gurugram, led by Mihir Gaba and a team of experienced advisors.
+
+We focus on:
+- Transparency
+- Trust
+- Long-term relationships
+
+-----------------------------------
+
+🔷 SERVICES (MAP INTO “WHAT WE ARE DOING” UI):
+
+1. Residential Properties
+- Flats, Plots, Builder Floors
+
+2. Commercial & Institutional Deals
+- Schools, Hospitals, Guest Houses, PG
+
+3. Investment Advisory
+- High-return investments
+- Land banking
+- Rental yield properties
+
+-----------------------------------
+
+🔷 GURGAON PROPERTIES SECTION (ONLY SECTION TO KEEP):
+
+Create at least 8 property cards using SAME UI as original:
+
+Each card must include:
+- Image
+- Title
+- Price
+- Type (Residential / Commercial)
+- Location
+- "Know More" button
+
+Property Data:
+
+1. Luxury 3BHK in Golf Course Road – ₹2.5 Cr
+2. Premium Office Space in Cyber City – ₹1.2 Cr
+3. Builder Floor in Nirvana Country – ₹1.8 Cr
+4. Investment Plot in Sohna Road – ₹90 Lakh
+5. Commercial Shops Sector 67 – ₹75 Lakh
+6. Apartments in New Gurgaon – ₹2.2 Cr
+7. Retail Space MG Road – ₹1.5 Cr
+8. High Rise Dwarka Expressway – ₹2.8 Cr
+
+-----------------------------------
+
+🔷 WHY CHOOSE US:
+
+- Strong Local Expertise in Gurugram
+- Verified Property Deals
+- End-to-End Assistance
+- Personalized Investment Advice
+- Transparent Transactions
+
+-----------------------------------
+
+🔷 TESTIMONIALS:
+
+Create 3–4 professional dummy testimonials (same card UI)
+
+-----------------------------------
+
+🔷 CONTACT SECTION:
+
+Address:
+NS10, Espace, Nirvana Country, Gurugram
+
+Phone:
+8929800801
+
+Email:
+mihirgaba19@gmail.com
+
+-----------------------------------
+
+🧠 FUNCTIONAL REQUIREMENTS:
+
+- Search bar UI (non-functional)
+- Hover animations on cards
+- Smooth scrolling animations
+- Responsive navbar with hamburger menu
+- Buttons with hover effects
+- Testimonials slider (if possible)
+
+-----------------------------------
+
+📁 PROJECT STRUCTURE:
+
+src/
+ ├── components/
+ │   ├── Navbar.jsx
+ │   ├── Hero.jsx
+ │   ├── Services.jsx
+ │   ├── Properties.jsx
+ │   ├── Testimonials.jsx
+ │   ├── Contact.jsx
+ │   ├── Footer.jsx
+ │
+ ├── pages/
+ │   └── Home.jsx
+ │
+ ├── assets/
+ │   └── images/
+ │
+ ├── App.jsx
+ └── main.jsx
+
+-----------------------------------
+
+⚠️ STRICT RULES:
+
+- DO NOT use Tailwind CSS
+- DO NOT add backend
+- DO NOT copy original text
+- DO NOT include Noida section
+- Use similar placeholder images for properties
+- Maintain pixel-perfect layout accuracy
+
+-----------------------------------
+
+🎯 FINAL GOAL:
+
+The website must look almost identical to chaahathomes.com in design and feel,
+but fully customized with InvestNow Estate content and branding.
