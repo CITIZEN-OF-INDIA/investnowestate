@@ -12,6 +12,7 @@ html {
 body {
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 55%, #0EA5A4 100%);
+  background-attachment: fixed;
   color: #fff;
   line-height: 1.6;
   overflow-x: hidden;
@@ -38,7 +39,7 @@ img {
 }
 
 ::selection {
-  background: rgba(201, 162, 39, 0.3);
+  background: rgba(245, 158, 11, 0.35);
   color: #fff;
 }
 
@@ -47,14 +48,14 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0a0a;
+  background: #0f172a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c9a227;
+  background: #f59e0b;
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e0b830;
+  background: #fbbf24;
 }

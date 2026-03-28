@@ -1,5 +1,6 @@
 .about {
-  background: #0f0f0f;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.72) 0%, rgba(15, 23, 42, 0.38) 100%);
+  backdrop-filter: blur(6px);
   padding: 100px 0;
 }
 
@@ -15,7 +16,7 @@
 }
 
 .about__label {
-  color: #c9a227;
+  color: #f59e0b;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -42,7 +43,7 @@
 }
 
 .about__desc strong {
-  color: #c9a227;
+  color: #f59e0b;
 }
 
 .about__cards {
@@ -52,12 +53,13 @@
 }
 
 .about__card {
-  background: #161616;
+  background: rgba(15, 23, 42, 0.68);
   padding: 50px 40px;
   position: relative;
   overflow: hidden;
   transition: all 0.3s ease;
-  border: 1px solid transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 .about__card::before {
@@ -67,15 +69,15 @@
   left: 0;
   width: 3px;
   height: 0;
-  background: #c9a227;
+  background: #f59e0b;
   transition: height 0.4s ease;
 }
 
 .about__card:hover {
-  background: #1a1a1a;
-  border-color: rgba(201, 162, 39, 0.15);
+  background: rgba(30, 41, 59, 0.82);
+  border-color: rgba(245, 158, 11, 0.22);
   transform: translateY(-4px);
-  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.28);
 }
 
 .about__card:hover::before {
@@ -83,7 +85,7 @@
 }
 
 .about__card-icon {
-  color: #c9a227;
+  color: #f59e0b;
   margin-bottom: 24px;
 }
 
@@ -106,7 +108,7 @@
 .about__card-line {
   width: 40px;
   height: 1px;
-  background: #c9a227;
+  background: #f59e0b;
   opacity: 0.5;
 }
 
