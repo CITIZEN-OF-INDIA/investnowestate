@@ -1,5 +1,8 @@
 .services {
-  background: #080808;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 164, 0.16), transparent 34%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.62) 0%, rgba(15, 23, 42, 0.34) 100%);
+  backdrop-filter: blur(6px);
   padding: 100px 0;
 }
 
@@ -14,7 +17,7 @@
 }
 
 .services__label {
-  color: #c9a227;
+  color: #f59e0b;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -42,8 +45,8 @@
 .services__cta {
   display: inline-block;
   background: transparent;
-  border: 1px solid #c9a227;
-  color: #c9a227;
+  border: 1px solid rgba(245, 158, 11, 0.55);
+  color: #f59e0b;
   padding: 14px 36px;
   font-size: 11px;
   font-weight: 600;
@@ -55,8 +58,9 @@
 }
 
 .services__cta:hover {
-  background: #c9a227;
-  color: #0a0a0a;
+  background: #f59e0b;
+  color: #0f172a;
+  box-shadow: 0 12px 28px rgba(245, 158, 11, 0.22);
 }
 
 .services__right {
@@ -70,25 +74,26 @@
   align-items: flex-start;
   gap: 24px;
   padding: 28px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
   transition: all 0.3s ease;
   cursor: default;
 }
 
 .services__item:first-child {
-  border-top: 1px solid rgba(255,255,255,0.06);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .services__item:hover {
   padding-left: 10px;
+  background: linear-gradient(90deg, rgba(245, 158, 11, 0.08) 0%, transparent 65%);
 }
 
 .services__item:hover .services__item-title {
-  color: #c9a227;
+  color: #f59e0b;
 }
 
 .services__item-num {
-  color: #c9a227;
+  color: #f59e0b;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 1px;

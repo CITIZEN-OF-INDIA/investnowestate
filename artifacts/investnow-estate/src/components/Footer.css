@@ -1,10 +1,11 @@
 .footer {
-  background: #050505;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.92) 0%, rgba(2, 6, 23, 0.96) 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .footer__top {
   padding: 80px 0 60px;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
 .footer__container {
@@ -27,7 +28,7 @@
 }
 
 .footer__logo-accent {
-  color: #c9a227;
+  color: #f59e0b;
 }
 
 .footer__tagline {
@@ -55,8 +56,9 @@
 }
 
 .footer__social-link:hover {
-  border-color: #c9a227;
-  color: #c9a227;
+  border-color: #f59e0b;
+  color: #f59e0b;
+  background: rgba(245, 158, 11, 0.08);
 }
 
 .footer__col h4 {
@@ -67,7 +69,7 @@
   text-transform: uppercase;
   margin-bottom: 24px;
   padding-bottom: 12px;
-  border-bottom: 1px solid rgba(201, 162, 39, 0.25);
+  border-bottom: 1px solid rgba(245, 158, 11, 0.24);
 }
 
 .footer__col ul {
@@ -92,7 +94,7 @@
 }
 
 .footer__col ul li button:hover {
-  color: #c9a227;
+  color: #f59e0b;
 }
 
 .footer__contact-list {
@@ -109,7 +111,7 @@
 }
 
 .footer__contact-list li svg {
-  color: #c9a227;
+  color: #f59e0b;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -121,7 +123,7 @@
 }
 
 .footer__contact-list a:hover {
-  color: #c9a227;
+  color: #f59e0b;
 }
 
 .footer__bottom {

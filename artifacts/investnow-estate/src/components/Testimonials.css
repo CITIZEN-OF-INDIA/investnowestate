@@ -1,5 +1,8 @@
 .testimonials {
-  background: #080808;
+  background:
+    radial-gradient(circle at center top, rgba(14, 165, 164, 0.16), transparent 30%),
+    linear-gradient(180deg, rgba(15, 23, 42, 0.72) 0%, rgba(30, 58, 138, 0.32) 100%);
+  backdrop-filter: blur(6px);
   padding: 100px 0;
 }
 
@@ -15,7 +18,7 @@
 }
 
 .testimonials__label {
-  color: #c9a227;
+  color: #f59e0b;
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -36,11 +39,13 @@
 }
 
 .testimonials__card {
-  background: #161616;
-  border: 1px solid rgba(201, 162, 39, 0.15);
+  background: rgba(15, 23, 42, 0.72);
+  border: 1px solid rgba(245, 158, 11, 0.18);
   padding: 50px;
   text-align: center;
   transition: opacity 0.3s ease;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 48px rgba(15, 23, 42, 0.24);
 }
 
 .testimonials__card--fade {
@@ -48,7 +53,7 @@
 }
 
 .testimonials__quote-icon {
-  color: #c9a227;
+  color: #f59e0b;
   opacity: 0.25;
   margin-bottom: 24px;
   display: flex;
@@ -68,7 +73,7 @@
 }
 
 .testimonials__star {
-  color: #c9a227;
+  color: #f59e0b;
   font-size: 18px;
   margin: 0 2px;
 }
@@ -84,8 +89,8 @@
   width: 52px;
   height: 52px;
   border-radius: 50%;
-  background: #c9a227;
-  color: #0a0a0a;
+  background: #f59e0b;
+  color: #0f172a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +121,7 @@
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #c9a227 !important;
+  color: #f59e0b !important;
   font-size: 11px !important;
 }
 
@@ -139,7 +144,7 @@
 }
 
 .testimonials__dot--active {
-  background: #c9a227;
+  background: #f59e0b;
   width: 28px;
   border-radius: 4px;
 }
@@ -154,7 +159,7 @@
 .testimonials__nav-btn {
   width: 44px;
   height: 44px;
-  border: 1px solid rgba(201, 162, 39, 0.3);
+  border: 1px solid rgba(245, 158, 11, 0.32);
   background: transparent;
   color: rgba(255,255,255,0.7);
   display: flex;
@@ -165,9 +170,9 @@
 }
 
 .testimonials__nav-btn:hover {
-  background: #c9a227;
-  border-color: #c9a227;
-  color: #0a0a0a;
+  background: #f59e0b;
+  border-color: #f59e0b;
+  color: #0f172a;
 }
 
 @media (max-width: 600px) {
